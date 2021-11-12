@@ -3,6 +3,8 @@ package org.company;
 public class Company {
 
 	public void cmpId() {
+		
+		System.out.println("Id");
 
 	}
 
@@ -10,7 +12,10 @@ public class Company {
 		
 		System.out.println("Address");
 	}
-
+     @SuppressWarnings("unused")
+	 private void tam() {
+     System.out.println("td");
+	}
 	public static void main(String[] args) {
 
 		Company c = new Company();
