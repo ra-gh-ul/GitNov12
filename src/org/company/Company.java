@@ -3,6 +3,8 @@ package org.company;
 public class Company {
 
 	public void cmpId() {
+		
+		System.out.println("Id");
 
 	}
 
